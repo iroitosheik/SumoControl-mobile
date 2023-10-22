@@ -28,7 +28,7 @@
             <div class="col-xs-2 col-sm-2">
                 
                 <ul class="list-group">
-                    <li class="list-group-item hardware-info">
+                    <li class="list-group-item-hardware hardware-info">
                         <i class="fa fa-battery-full"></i>
                         <progress id="battery-value" value="50" max="100"></progress>
                         <span id="battery_num">50%</span>
@@ -37,7 +37,7 @@
 
                 
                 <ul class="list-group">
-                    <li class="list-group-item-mobile">
+                    <li class="list-group-item-mobile-anims">
                         <button type="button" class="btn btn-default" onclick="jsSpinFunction();">
                             <span class="glyphicon glyphicon-refresh" aria-hidden="true"></span>
                         </button>
@@ -99,10 +99,10 @@
             <div class="col-xs-2 col-sm-2">
                 <ul class="list-group">
 
-                    Log:
+                   
 <pre id="log" style="border: 1px solid #ccc;"></pre>
 
-                    <li class="list-group-item-mobile">
+                    <li class="list-group-item-mobile-sauts">
                         <button type="button" class="btn btn-default" onclick="jsJumpFunction();">
                             <span class="glyphicon glyphicon-open" aria-hidden="true"></span>
                         </button>
@@ -110,10 +110,10 @@
                         <button type="button" class="btn btn-default" onclick="jsLongJumpFunction();">
                             <span class="glyphicon glyphicon-export" aria-hidden="true"></span>
                         </button>
-                    
+                    </li>
                 </ul>
                 <ul class="list-group">
-                    
+                    <li class="list-group-item-mobile">
                         <button type="button" class="btn btn-default" onclick="postureJumper();">
                             <span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span>  &nbsp;Par Défaut
                         </button>
@@ -122,7 +122,7 @@
                         <button type="button" class="btn btn-default" onclick="postureStanding();">
                             <span class="glyphicon glyphicon-tint" aria-hidden="true"></span> &nbsp;Métronome
                         </button>
-                    </li>
+                    
                     
                         <button type="button" class="btn btn-default" onclick="postureKicker();">
                             <span class="glyphicon glyphicon-step-forward" aria-hidden="true"></span>  &nbsp;Pousseur
