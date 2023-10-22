@@ -1,0 +1,139 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+.container-full {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #f5f5f5;
+}
+
+
+/* Custom page CSS
+-------------------------------------------------- */
+
+
+/* Not required for template or sticky footer method. */
+
+body > .container {
+/*    padding: 60px 15px 0;*/
+}
+
+.container .text-muted {
+    margin: 20px 0;
+}
+
+.footer > .container {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.elmt {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.hardware-info {
+    font-size: 0.9em;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.hardware-info progress {
+    width: 50%;
+}
+
+.list-group-item button {
+    width: 100%;
+    display: block;
+    text-align: left;
+
+}
+
+.list-group-item-mobile button {
+    width: auto;
+    text-align: left;
+
+}
+
+.list-group-item-mobile-nav button {
+    margin-top:20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 48%;
+    text-align: center;
+    background-color: grey;
+
+}
+
+.list-group-item-mobileblock button {
+    width: 100%;
+    display: block;
+    text-align: center;
+    background-color: grey;
+
+}
+
+
+li { /* styles all li elements to remove ::marker*/
+    list-style-type: none;
+}
+
+#media {
+    text-align: center;
+}
+
+#media >img {
+    width: 960px;
+    height: 720px;
+    margin: 0 auto;
+}
+
+#mediamobile {
+    text-align: center;
+}
+
+#mediamobile >img {
+    width: 892px;
+    height: 412px;
+    margin: 0 auto;
+}
+
+#log {
+  height: 90px;
+  width: 115px;
+  overflow: scroll;
+}
+
+pre#log{
+  font-size: 20px;
+}
+
+.btn{
+  padding: 8px 20px;
+}
+
+.col-sm-2{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.col-xs-2{
+  padding-left: 5px;
+  padding-right: 5px;
+}
