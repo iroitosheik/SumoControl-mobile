@@ -5,7 +5,7 @@ html {
 
 body {
     /* Margin bottom by footer height */
-    margin-bottom: 60px;
+/*    margin-bottom: 60px;*/
 }
 
 .container-full {
@@ -29,9 +29,9 @@ body {
 
 /* Not required for template or sticky footer method. */
 
-body > .container {
-/*    padding: 60px 15px 0;*/
-}
+/*body > .container {
+    padding: 60px 0px 0;
+}*/
 
 .container .text-muted {
     margin: 20px 0;
@@ -59,6 +59,10 @@ body > .container {
     width: 50%;
 }
 
+.list-group{
+    margin-bottom: 5px;
+}
+
 .list-group-item button {
     width: 100%;
     display: block;
@@ -66,18 +70,43 @@ body > .container {
 
 }
 
-.list-group-item-mobile button {
+.list-group-item-hardware button {
     width: auto;
+    display: block;
     text-align: left;
+    padding : 5px 15px;
+
 
 }
 
+.list-group-item-mobile-anims button {
+    width: 30%;
+    text-align: center;
+    margin-top: 5px;
+    padding : 5px;
+
+}
+
+.list-group-item-mobile button {
+    width: 100%;
+    text-align: center;
+    margin-top: 5px;
+    
+
+}
+
+.list-group-item-mobile-sauts button {
+    width: 48%;
+    text-align: center;
+}
+
 .list-group-item-mobile-nav button {
-    margin-top:20px;
+    margin-top:0px;
     padding-top: 15px;
     padding-bottom: 15px;
     width: 48%;
     text-align: center;
+    vertical-align: middle;
     background-color: grey;
 
 }
@@ -85,7 +114,10 @@ body > .container {
 .list-group-item-mobileblock button {
     width: 100%;
     display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
     text-align: center;
+    vertical-align: middle;
     background-color: grey;
 
 }
@@ -109,16 +141,23 @@ li { /* styles all li elements to remove ::marker*/
     text-align: center;
 }
 
-#mediamobile >img {
+/*#mediamobile >img {
     width: 892px;
     height: 412px;
+    margin: 0 auto;
+}*/
+
+#mediamobile >img {
+    width: 640px;
+    height: 480px;
     margin: 0 auto;
 }
 
 #log {
-  height: 90px;
-  width: 115px;
+  height: 30px;
+  width: auto;
   overflow: scroll;
+  margin-top: 5px;
 }
 
 pre#log{
